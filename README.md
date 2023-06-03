@@ -1,52 +1,46 @@
 
-Flutter 商城案例Demo 支持Android iOS 以及Web(web版代码在 web分支 可以用手机访问 http://kunkun12.com/Flutter_shop 来体验)  ：主要功能包括
-- 首页多楼层展示 楼层进入视口动画、
-- 搜索 提示列表、搜索结果列表。
-- 分类页面弹性滑动
-- 发现 大列表，
-- ScopeModel 状态管理购物车、
-- 国际化支持、屏幕适配等。
-
-[写了一篇学习总结 并整理大量学习资料](https://kunkun12.github.io/2018/12/03/flutter-study/)
+The Flutter Mall case demo supports Android, iOS and Web (the web version code is in the web branch, you can use your mobile phone to visit http://success-together/Flutter-shopping-app to experience): the main functions include
+- Multi-floor display on the homepage, floor entry viewport animation,
+- Search Prompt list, search result list.
+- Elastic sliding of category pages
+- discover large list,
+- ScopeModel state management cart,
+- Internationalization support, screen adaptation, etc.
 
 
-由于截图录制原因，实际运行效果要更流畅，动画以及滑动，路由转场等效果体验上与native无明显差距。 **项目中用到的模拟数据仅用于技术研究**
 
-打包后 android APK大小为 6M，ios的包大小为12M
+Due to screenshot recording, the actual running effect should be smoother, and there is no obvious difference between the experience of animation, sliding, routing transition and other effects compared with native. **The simulation data used in the project is only for technical research**
 
-Android apk 可以扫码下载 (iOS版本请自行编译）
+After packaging, the android APK size is 6M, and the package size for ios is 12M
+
+Android apk can be scanned and downloaded (please compile the iOS version by yourself)
 
 ![](/screenshot/qrcode.png)
 
-- 1、首页+搜索 判断组件出现在屏幕中、添加动画、首页横滑多Tab 加载图片列表，以及搜索功能、自带的bottombar高度不合适，自定义BottomBar
+- 1. Home page + search Judging that the component appears on the screen, adding animation, sliding the home page with multiple tabs to load the image list, and the search function, the height of the built-in bottombar is not appropriate, customize the BottomBar
 
 
 ![](/screenshot/1.gif)
 
 
-Hero 、PageView实现图片预览
+Hero and PageView implement picture preview
 
 ![](/screenshot/5.gif)
 
 
-- 2、商品分类页  弹性下滑分页
+- 2. Product category page, elastic sliding pagination
 
 
 ![](/screenshot/2.gif)
 
 
-- 3、发现 图文大列表
+- 3. Discover a large list of pictures and texts
 
 
 ![](/screenshot/3.gif)
 
 
-- 4、购物车 scopeModal实现状态管理
+- 4. Shopping cart scopeModal realizes state management
 
 
 ![](/screenshot/4.gif)
-
-
-
-[Flutter 学习总结](https://kunkun12.github.io/2018/12/03/flutter-study/)
-
